@@ -1,5 +1,6 @@
 #!/bin/sh
-[[ -f ~/.Xresources ]] && xrdb -merge -I$HOME ~/.Xresources
+
+xrdb -merge ~/.Xresources
 
 # start urxvt daemon
 urxvtd -q -f -o

@@ -23,3 +23,19 @@
 *highlightColor: #c1ddff
 ! No support for cursor text coloring; would be #feffff.
 ! No support for bold coloring; would be #feffff.
+
+! Xft
+Xft.dpi:         103
+Xft.autohint:    0
+Xft.lcdfilter:   lcddefault
+Xft.hintstyle:   hintfull
+Xft.hinting:     1
+Xft.antialias:   1
+Xft.rgba:        rgb
+
+! Font
+URxvt.font:      xft: DejaVu Sans Mono:pixelsize=12
+Urxvt.letterSpace: -1
+
+! Scrollbar
+URxvt.scrollBar:    false
