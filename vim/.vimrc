@@ -8,7 +8,9 @@ set smartcase
 set incsearch "Incremental search
 set nolazyredraw "Don't redraw while executing macros
 set hlsearch
+set cursorline
 set ruler
+set number
 syntax on
 
 " Text, tab and indent related
